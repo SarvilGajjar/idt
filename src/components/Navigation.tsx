@@ -26,7 +26,7 @@ export const Navigation: React.FC = () => {
             <div className="bg-white bg-opacity-20 p-2 rounded-lg backdrop-blur">
               <BookOpen className="w-6 h-6" />
             </div>
-            <span className="font-bold text-2xl hidden sm:inline bg-clip-text text-transparent bg-gradient-to-r from-white to-blue-100">LibraryHub</span>
+            <span className="font-bold text-2xl hidden sm:inline bg-clip-text text-transparent bg-gradient-to-r from-white to-blue-100">BookWorm</span>
           </div>
 
           <div className="hidden md:flex items-center gap-4">

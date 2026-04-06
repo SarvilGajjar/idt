@@ -36,7 +36,7 @@ export const Login: React.FC = () => {
               <div className="bg-white bg-opacity-20 p-2 rounded-lg backdrop-blur">
                 <BookOpen className="w-8 h-8 text-white" />
               </div>
-              <h1 className="text-4xl font-bold text-white">LibraryHub</h1>
+              <h1 className="text-4xl font-bold text-white">BookWorm</h1>
             </div>
             <p className="text-blue-100 text-lg">📚 Manage your library efficiently</p>
           </div>
