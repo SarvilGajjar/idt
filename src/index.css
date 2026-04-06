@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply antialiased;
+  }
+  
+  /* Global smooth scrolling */
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  /* Custom scrollbar */
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    @apply bg-gray-100;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    @apply bg-blue-500 rounded-full hover:bg-blue-600;
+  }
+}
+
+@layer components {
+  /* Loading spinner animation */
+  @keyframes spin-slow {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .animate-spin-slow {
+    animation: spin-slow 2s linear infinite;
+  }
+}
+
